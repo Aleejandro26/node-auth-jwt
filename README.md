@@ -27,11 +27,11 @@
 11. Agregar los siguientes scripts: `"dev": "tsnd --respawn --clear src/app.ts",   "build": "rimraf ./dist && tsc",   "start": "npm run build && node dist/app.js"`
 
 # Methods
-- #POST:
+- POST:
   http://localhost:3000/auth/register
   http://localhost:3000/users
   http://localhost:3000/auth/login
-- #GET ALL
+- GET ALL
   http://localhost:3000/users
-- #GET PUT DELETE BY ID
+- GET PUT DELETE BY ID
   http://localhost:3000/users/:id
